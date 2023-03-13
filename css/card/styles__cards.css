@@ -1,0 +1,177 @@
+body{
+    background-color: aliceblue;
+}
+.title__proyectos{
+    text-align: center;
+    margin-top: 5rem;
+}
+.container__card{
+    max-width: 1200px;
+    margin: auto;
+    *background-color: rgb(105, 105, 249);
+    margin-top: 5rem;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card__father{
+    margin: 30px;
+    perspective: 1000px;
+    width: 90%;
+    
+    
+}
+.card__father:hover .card{
+    transform: rotateY(180deg);
+}
+.card{
+    height: 550px;
+    *background-color: aqua;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 900ms;
+}
+.card__front{
+    background-size: cover;
+    background-position: center;
+}
+
+.card__front,
+.card__back{
+    box-sizing: border-box;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+.front__deco{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+.card__back{
+    transform: rotateY(180deg);
+    *background-color: white;
+    background-size: cover;
+    background-position: center;   
+}
+.card__back-deco{
+    background-image: url(../../assets/decodificador.png);
+}
+.card__back-porta{
+    background-image: url(../../assets/portafolio.png);
+}
+.card__back-abaut{
+    background-image: url(../../assets/abautMe.png);
+}
+.body__card_front{
+    box-sizing: border-box;
+    /* ojo arriba */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translateZ(60px);
+    /* position: relative;si quiero que la opacidad qie se puso en el bg no me afecte uso esta propiedad pero cpmo vamos a usar transforme en x la pasa adelante entonces no  */
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    border-radius: 20px ;
+}
+.bgBack{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px ;
+}
+.body__card_back{
+    padding-top: 20px;
+    text-align: center;
+    transform: translateZ(60px);
+}
+.card__botoon{
+    margin: 20px;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #58b0f6;
+    box-shadow: 1px 1px 30px -5px #58b0f6;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+    text-decoration: none;
+}
+.card__botoon:hover{
+    box-shadow: 1px 1px 30px 0px #449de6;
+}
+.card__title{
+    margin-top: 10%;
+    color: white;
+}
+.card__p{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.container__botoon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (min-width: 0px) {
+    .back__up{
+        margin-top: 70px;
+    }
+    .front__deco{
+        background-image: url(../../assets/decoMini.png); 
+        justify-content: center;
+    }
+    .card__back-deco{
+        background-image: url(../../assets/decoMini.png);
+    }
+    
+}
+@media screen and (min-width: 780px) {
+    .back__up{
+        margin-top: 0px;
+    }
+    .front__deco{
+        background-image: url(../../assets/decodificador.png);        
+    }
+    .card__back-deco{
+        background-image: url(../../assets/decodificador.png);
+    }
+
+}

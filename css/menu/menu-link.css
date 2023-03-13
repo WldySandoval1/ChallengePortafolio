@@ -1,0 +1,36 @@
+.menu__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #464646;
+    
+
+}
+
+.menu__link.activo {
+    color: #303030;
+    font-weight: 400;
+}
+.menu__link:hover{
+    color: rgb(64,123,221);
+}
+
+@media screen and (min-width: 0) {
+    .menu__link {
+        font-size: 0.8rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .menu__link {
+        font-weight: 300;
+        font-size: 16px;
+        margin-left: 2rem;
+    }
+
+}

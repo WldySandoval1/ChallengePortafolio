@@ -1,0 +1,32 @@
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;   
+    /* border-style: solid; */
+       
+}
+
+@media screen and (min-width: 0) {
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+@media screen and (min-width: 769px) {
+    .menu{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .menu{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        justify-content: space-between;
+    }
+}
+   

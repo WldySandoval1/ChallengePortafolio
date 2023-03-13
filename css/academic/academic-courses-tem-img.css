@@ -1,0 +1,46 @@
+.academic__courses__item__img{
+    list-style: none;
+
+}
+
+.academic__courses__item__subtitle{
+    list-style: none;
+}
+.academic__courses__item__title{
+    list-style: none;
+}
+
+
+
+@media screen and (min-width: 0) {
+    .academic-formacion{
+        padding: 3.1rem;
+        width: 140px;
+        
+    }
+    .academic-formacion-alura{
+        padding: 3.5rem 1rem 3.5rem 1rem;
+        width: 200px;
+    }
+    .academic-formacion-uvi{
+        padding: 3.1rem;
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .academic-formacion{
+        padding: 4rem;
+        width: 180px;
+    }
+    .academic-formacion-alura{
+        padding: 5rem 2.5rem 3rem 2.5rem;
+        width: 240px;
+    }
+    .academic-formacion-uvi{
+        padding: 4rem;
+        width: 180px;
+    }
+
+}

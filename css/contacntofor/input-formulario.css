@@ -1,0 +1,108 @@
+/* .formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__input{
+    height: 60px;
+    margin: 20px 0 20px 0;
+} */
+
+  
+  .input-container {
+    margin-top: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+    border: none;
+    background-color: white;
+  }
+  
+  .input::placeholder {
+    visibility: hidden;
+    color: #000000;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 1rem;  
+    transition: all 0.25s;
+  }
+  
+  .input:not(:placeholder-shown) + .input-label,
+  .input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;    
+  }
+  
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+  }
+  
+  .input-container--invalid .input-label {
+    color:  red;
+  }
+  
+  .input-message-error {
+    display: none;
+  
+  }
+  
+  .input-container--invalid .input-message-error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .textarea {
+    box-sizing: border-box;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
+    height: 15rem;
+    resize: none;
+  }
+  
+
+  .button__send{
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #58b0f6;
+    box-shadow: 1px 1px 30px -5px #58b0f6;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+    text-decoration: none;
+}
+.button__send:hover{
+    box-shadow: 1px 1px 30px 0px #449de6;
+}
+ 

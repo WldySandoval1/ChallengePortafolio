@@ -1,0 +1,41 @@
+.title__div {
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    /* border-style: solid; */
+    background-color: aquax; 
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+
+
+@media screen and (min-width: 0) {
+    .title__imagen_perfil {
+        order: 0;
+    }
+    .title__container{
+        width: 100%;
+        text-align: center;
+    }
+    .title__div{
+        padding: 2rem 1rem 2rem 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .title__container {
+        width: 40rem;
+        text-align: left;
+
+    }
+    .title__imagen_perfil {
+        order: 1;
+    
+    }
+    .title__div{
+        padding: 5rem 5rem 5rem 5rem;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,11 @@
+.academic{
+    background: #EAF2FD;
+    padding: 5rem 5rem 5rem 5rem;
+}
+.academic__courses{
+    display: flex;   
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+     
+}

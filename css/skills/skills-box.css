@@ -1,0 +1,16 @@
+.skills__box {
+    background-color: rgb(39, 39, 39);
+    border-radius: 8px;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    -webkit-box-shadow: 7px 6px 9px 3px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 7px 6px 9px 3px rgba(184, 184, 184, 1);
+    box-shadow: 7px 6px 9px 3px rgba(184, 184, 184, 1);
+    color: white;
+}

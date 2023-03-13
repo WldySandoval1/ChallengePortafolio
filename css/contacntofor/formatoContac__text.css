@@ -1,0 +1,34 @@
+ .formcontato__title{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 50px;
+
+}
+
+
+.borde{
+    border: none;
+    padding: 0;
+}
+@media screen and (min-width: 0px) {
+    .formcontato__title{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .formcontato__subtext{
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+    
+}
+@media screen and (min-width: 780px) {
+    .formcontato__subtext{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2rem;
+        } 
+
+}
+

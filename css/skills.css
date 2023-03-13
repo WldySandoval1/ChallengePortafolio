@@ -1,0 +1,12 @@
+.skills{
+    background: #F5F5F5; 
+    padding: 3rem 0 3rem 0;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem 0 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+.formcontato{
+    background: #EAF2FD;
+
+}
+.formcontato__contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+@media screen and (min-width: 0px) {
+    .formcontato{
+        padding: 5rem 1rem 2rem 1rem;
+    }
+    .formcontato__img{
+        width: 10rem;
+    }
+    .formcontato__text{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (min-width: 780px) {
+    .formcontato{
+        padding: 5rem 2rem 5rem 2rem;
+    }
+    .formcontato__img{
+        width: 15rem;
+    }
+    .formcontato__text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

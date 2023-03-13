@@ -1,0 +1,14 @@
+.academic__courses__item__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.academic__courses__item__subtitle{    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 2rem;
+}
